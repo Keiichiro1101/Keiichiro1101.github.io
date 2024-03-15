@@ -4,7 +4,7 @@
     <meta charset = "UTF-8">
     <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
     <meta name = "viewport" content = "width-device-width, initial-scale = 1.0">
-    <title> Personlal Portfolio Website - Keiichiro Watanabe </title>
+    <title> Portfolio - 渡邊啓一郎 (Keiichiro Watanabe) </title>
     <link rel = "stylesheet" href = "style.css">
     <script src="https://kit.fontawesome.com/af15eeb416.js" crossorigin="anonymous"></script>
 </head>
@@ -12,20 +12,18 @@
 <div id = "header">
     <div class = "container">
         <nav>
-            <img src = "logo1.png" class = "logo">
             <ul id = "sidemenu">
-                <li><a href = "#header">Home</a></li>
-                <li><a href = "#about">About</a></li>
-                <li><a href = "#services">Services</a></li>
-                <li><a href = "#portfolio">Portfolio</a></li>
-                <li><a href = "#contact">Contanct</a></li>
+                <li><a href = "#header">ホーム</a></li>
+                <li><a href = "#about">自己紹介</a></li>
+                <li><a href = "#portfolio">プロダクト</a></li>
+                <li><a href = "#contact">コンタクト</a></li>
                 <i class="fas fa-times" onclick="closemenu()"></i>
             </ul>
             <i class="fas fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class = "header-text">
             <p>Software Engineer</p>
-            <h1><span>Keiichiro Watanabe </span><br>from Japan</h1>
+            <h1><span>渡邊啓一郎 </span><br>Keiichiro Watanabe</h1>
         </div>
     </div>
 </div>
@@ -34,46 +32,46 @@
     <div class = "container">
         <div class = "row">
             <div class = "about-col-1">
-                <img src="background.png" >
+                <img src="me.jpg" >
             </div>
             <div class = "about-col-2">
-                <h1 class = "subtitle">About Me</h1>
-                <p>Class of 2025. Currently searching for a fulltime job in the field of software development. 
+                <h1 class = "subtitle">自己紹介</h1>
+                <p>25卒エンジニア(バックエンド)志望です。得意な技術スタックはTypeScript, Node.jsです。
                 </p>
                 <div class = "tab-titles">
-                    <p class = "tab-links active-link" onclick = "opentab('skills')">Skills</p>
-                    <p class = "tab-links" onclick = "opentab('experience')">Experience</p>
-                    <p class = "tab-links" onclick = "opentab('education')">Education</p>
+                    <p class = "tab-links active-link" onclick = "opentab('スキル')">スキル</p>
+                    <p class = "tab-links" onclick = "opentab('インターン経験')">インターン経験</p>
+                    <p class = "tab-links" onclick = "opentab('経歴')">経歴</p>
                 </div>
-                <div class="tab-contents active-tab" id = "skills">
+                <div class="tab-contents active-tab" id = "スキル">
                     <ul>
-                        <li><span>Web APP Development (Backend)
-                        </span><br>TypeScript, Node.js</li>
-                        <li><span>API Integration
-                        </span><br>OpenAI, StableDiffusion, DeepL, VoiceVox, etc</li>
-                        <li><span>Cloud Based Solutions</span><br>AWS S3/Batch/EC2/Lambda</li>
-                        <li><span>Data Analyzation</span><br>R, Shiny for R</li>
-                        <li><span>UI/UX</span><br>Designing Web\App Interfaces using Figma</li>
+                        <li><span>Webアプリのバックエンド開発
+                        </span><br>TypeScript, Node.js, Prisma, PostgreSQL, Express.js</li>
+                        <li><span>外部API接続
+                        </span><br>OpenAI, StableDiffusion, DeepL, VoiceVox, Nrakeet, etc</li>
+                        <li><span>サーバレス&大規模データ処理</span><br>AWS S3/Batch/EC2/Lambda</li>
+                        <li><span>データ分析</span><br>R, Shiny for R</li>
+                        <li><span>UI/UX</span><br>Figma</li>
                     </ul>
                 </div>
-                <div class="tab-contents" id = "experience">
+                <div class="tab-contents" id = "インターン経験">
                     <ul>
-                        <li><span>2023-Now</span><br>Backend Engineering Internship at r3kt Co., Ltd.</li>
-                        <li><span>2022-2023</span><br>System Engineering Internship at Diamond Head Co., Ltd.</li>
-                        <li><span>2020-2021</span><br>Inside Sales Internship at Overflow Co., Ltd.</li>
-                        <li><span>2020-2021</span><br>SEO Director Internship at Ledge Co., Ltd.</li>
+                        <li><span>2023-Now</span><br>株式会社 r3kt インターン</li>
+                        <li><span>2022-2023</span><br>株式会社 Diamondhead インターン</li>
+                        <li><span>2020-2021</span><br>株式会社 Overflow インターン</li>
+                        <li><span>2020-2021</span><br>株式会社 Ledge インターン</li>
                     </ul>
                 </div>
-                <div class="tab-contents" id = "education">
+                <div class="tab-contents" id = "経歴">
                     <ul>
-                        <li><span>2024</span><br> Graduated Grinnell College with Computer Science Diploma (USA)</li>
-                        <li><span>2022</span><br> Study abroad to Aquicum Institute of Technology, Budapest (HUN)</li>
-                        <li><span>2021</span><br>Restart Grinnell College B.S.E </li>
-                        <li><span>2020-2021</span><br>Temporary leave from Grinnell College due to COVID-19</li>
-                        <li><span>2019</span><br>Entered Grinnell College (USA) for B.S.E.</li>
-                        <li><span>2019</span><br>Dropped out from Waseda University</li>
-                        <li><span>2019</span><br>Entered Waseda University (JPN) for B.A.</li>
-                        <li><span>2019</span><br>Graduated Meikei High School (JPN)</li>
+                        <li><span>2024</span><br> Grinnell College 卒業予定（Computer Science Degree）</li>
+                        <li><span>2022</span><br>Aquincum Institute of Technology （ハンガリー）留学</li>
+                        <li><span>2021</span><br>Grinnell College 復学 </li>
+                        <li><span>2020-2021</span><br>Grinnell College 休学</li>
+                        <li><span>2019</span><br>Grinnell College（アメリカ）入学</li>
+                        <li><span>2019</span><br>早稲田大学国際教養学部 中退</li>
+                        <li><span>2019</span><br>早稲田大学国際教養学部 入学</li>
+                        <li><span>2019</span><br>茗溪学園高等学校 卒業</li>
                     </ul>
                 </div>
             </div>
@@ -81,63 +79,38 @@
     </div>
 </div>
 
-<!-- ---------------------services-------------------- -->
-<div id = "services">
-    <div class = "container">
-        <h1 class = "subtitle">My Services</h1>
-        <div class = "services-list">
-            <div>
-                <i class="fa-solid fa-code"></i>
-                <h2>Web App Development・Data Analysis</h2>
-                <p>With 4 other members, we designed and developed a Rshiny app which serves as data analysis and visualization tool for the Viking Longship building game.</p>
-                <a href = 'https://pps0cw-shreyas-agrawal.shinyapps.io/src-final/ '>Learn More</a>
-            </div>
-            <div>
-                <i class="fa-solid fa-crop"></i>
-                <h2>UI/UX Design</h2>
-                <p>I designed a video streaming service app using Figma. </p>
-                <a href = 'https://www.figma.com/file/K6YgID3XNAUrxrnXJfH3Om/Final-Project?node-id=0%3A1&t=pIdGHMeabyzPWxrl-1'>Learn More</a>
-            </div>
-            <div>
-                <i class="fa-brands fa-app-store"></i>
-                <h2>Web App Development</h2>
-                <p>I designed and developed my own web page which incluedes my educational and working background, as well as the services I developed.</p>
-                <a href = '#'>Learn More</a>
-            </div>
-        </div>
-    </div>
-</div>
 <!-- ---------------------portfolio-------------------- -->
 <div id = "portfolio">
     <div class = "container">
-        <h1 class = "subtitle">My Work</h1>
+        <h1 class = "subtitle">プロダクト</h1>
         <div class = "work-list">
             <div class="work">
-                <img src="game.jpg">
+                <img src="video8.png">
                 <div class="layer">
-                    <h3>Text-to-Video Web Application</h3>
-                    <p>As an backend engineering intern, we developed a text-to-video application. User input texts are transformed into video content.</p>
-                    <a href="https://youtu.be/21KIcgJtHIU?si=2cAQJZrwEmj6OW0Ahttps://youtu.be/21KIcgJtHIU?si=2cAQJZrwEmj6OW0A"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <h3>Video8</h3>
+                    <p>株式会社r3ktで文字を入力すると自動で動画を作成するwebアプリ（Video8）を開発した。動画制作は撮影や編集作業が伴うため、コストと時間がかかる。これらの課題に対処し、個人や企業が簡単かつ手軽に動画を制作できるようにすることを目的としてVideo8を開発した。Video8はインターン4人のチームで開発され、私はバックエンドを担当。バックエンド開発における設計、要件定義、実装、テスト、サービスインまで一貫して携わった。
+                    </p>
+                    <a href="https://video8.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="book.jpg">
+                <img src="VR.png">
                 <div class="layer">
-                    <h3>Book Recorder App</h3>
-                    <p>This app lets you search for books you have already read or wanting to read and record it on your phone. </p>
-                    <a href="https://github.com/Keiichiro1101/BookRecorder.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <h3>データ分析</h3>
+                    <p>4人のメンバーとともに、Viking Longship Building Gameのデータ分析と可視化ツールとして機能するRshinyアプリを設計および開発しました。 </p>
+                    <a href="https://pps0cw-shreyas-agrawal.shinyapps.io/src-final/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
-                <img src="shoppinglist.jpg">
+                <img src="movie.png">
                 <div class="layer">
-                    <h3>Shopping List App</h3>
-                    <p>This app assits your shopping experience by letting you record groceries or clothes you buy in a list.</p>
-                    <a href="https://github.com/Keiichiro1101/ShoppingList.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <h3>UI/UXデザイン</h3>
+                    <p>授業でFigmaを使用し、ビデオストリーミングサービスのアプリのデザインを設計しました。</p>
+                    <a href="https://www.figma.com/file/K6YgID3XNAUrxrnXJfH3Om/Final-Project?node-id=0%3A1&t=pIdGHMeabyzPWxrl-1" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
         </div>
-        <a href="https://github.com/Keiichiro1101" class ="btn">See More</a>
+        <a href="https://github.com/Keiichiro1101" target="_blank" class="btn">もっと見る</a>
     </div>
 </div>
 
@@ -146,30 +119,27 @@
     <div class = "container">
         <div class = "row">
             <div class="contacat-left">
-                <h1 class = "sub-title">Contact Me</h1>
+                <h1 class = "sub-title">コンタクト</h1>
                 <p><i class="fa-sharp fa-solid fa-paper-plane"></i>w.keiichiro1101@gmail.com</p>
                 <p><i class="fa-sharp fa-solid fa-phone"></i>0298556430</p>
                 <div class = "social-icons">
-                    <a href = "https://www.facebook.com/keiichiro.watanabe.5811/"><i class="fa-brands fa-facebook"></i></a>
-                    <a href = "https://github.com/Keiichiro1101"><i class="fa-brands fa-square-github"></i></a>
-                    <a href = "https://www.instagram.com/k_1ro_w/"><i class="fa-brands fa-instagram"></i></a>
-                    <a href = "https://www.linkedin.com/in/keiichiro-watanabe-b1949526b/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/keiichiro.watanabe.5811/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://github.com/Keiichiro1101" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                    <a href = "https://www.instagram.com/k_1ro_w/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href = "https://www.linkedin.com/in/keiichiro-watanabe-b1949526b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
-                <a href="履歴書.pdf" download class= "btn btn2">Download CV</a>
+                <a href="【履歴書】_渡邊啓一郎.pdf" download class= "btn btn2">履歴書をダウンロード</a>
             </div>
             <div class="contacat-right">
                 <form name = "submit-to-google-sheet">
-                    <input type = "text" name = "Name" placeholder = "Your Name" required>
-                    <input type = "email" name = "Email" placeholder = "Your Email" required>
-                    <textarea name = "Message" rows = "6" placeholder = "Your Message"></textarea>
-                    <button type = "submit" class = "btn btn2">Submit</button>
+                    <input type = "text" name = "Name" placeholder = "名前" required>
+                    <input type = "email" name = "Email" placeholder = "メールアドレス" required>
+                    <textarea name = "Message" rows = "6" placeholder = "メッセージ"></textarea>
+                    <button type = "submit" class = "btn btn2">送る</button>
                 </form>
                 <span id = "msg"></span>
              </div>
         </div>
-    </div>
-    <div class="copyright">
-        <p>Copyright ©︎ Keiichiro. Made with <i class="fa-solid fa-heart"></i> by Keiichiro Watanabe</p>
     </div>
  </div>
 
